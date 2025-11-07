@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agentic Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="constellation"></canvas>
+  <div class="grid-overlay"></div>
+  <header class="site-header">
+    <div class="logo">agentic<span>.dev</span></div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#ai">AI Workflow</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__copy">
+        <span class="badge">AI-Accelerated Builder</span>
+        <h1>Designing systems that merge human creativity with autonomous intelligence.</h1>
+        <p>
+          I prototype, iterate, and ship production-grade products at startup speed by orchestrating AI copilots,
+          automation pipelines, and reliable engineering craft.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">View Work</a>
+          <a class="btn btn--ghost" href="#contact">Let's Collaborate</a>
+        </div>
+        <div class="metrics">
+          <div>
+            <span>48h</span>
+            <small>Idea to live prototype</small>
+          </div>
+          <div>
+            <span>+220%</span>
+            <small>Delivery velocity boost</small>
+          </div>
+          <div>
+            <span>7x</span>
+            <small>Average ROI for clients</small>
+          </div>
+        </div>
+      </div>
+      <div class="hero__viz">
+        <div class="orbital">
+          <div class="orbital__planet"></div>
+          <div class="orbital__ring orbital__ring--one"></div>
+          <div class="orbital__ring orbital__ring--two"></div>
+          <div class="orbital__ring orbital__ring--three"></div>
+        </div>
+        <div class="hero__stack">
+          <span>TypeScript</span>
+          <span>Next.js</span>
+          <span>Supabase</span>
+          <span>LangChain</span>
+          <span>Vercel</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section__header">
+        <span class="section__eyebrow">signature approach</span>
+        <h2>Engineering flow, orchestrated by AI</h2>
+      </div>
+      <div class="about__grid">
+        <article class="card">
+          <h3>Intent-driven architecture</h3>
+          <p>
+            Every build starts with mapping user journeys to systems that scale. I blueprint data models, orchestrations,
+            and feedback loops before writing the first line of code.
+          </p>
+        </article>
+        <article class="card">
+          <h3>AI copilots as teammates</h3>
+          <p>
+            I design custom AI playbooks that automate research, generate scaffolds, and stress-test ideas—keeping me focused
+            on high-leverage engineering.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Continuous iteration loop</h3>
+          <p>
+            Shipping isn't the finish line. I wire analytics, tracing, and user feedback pipelines so the product evolves in real time.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section__header">
+        <span class="section__eyebrow">selected builds</span>
+        <h2>Rapidly shipped, production-ready launches</h2>
+      </div>
+      <div class="projects__grid">
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__tag">AI Product Studio</span>
+            <span class="project-card__status">live</span>
+          </div>
+          <h3>AUTONOME: self-tuning launchpad</h3>
+          <p>
+            Built an agentic orchestration layer powering daily releases. AI copilots autonomously generate feature specs,
+            produce code branches, and run validation suites—compressing their release cycle from weekly to nightly.
+          </p>
+          <ul>
+            <li>Adaptive task routing with LangChain agents</li>
+            <li>Automated regression testing via Playwright</li>
+            <li>Realtime observability dashboards on Supabase</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__tag">Analytics SaaS</span>
+            <span class="project-card__status">in scaling</span>
+          </div>
+          <h3>NEURA OPS: telemetry intelligence</h3>
+          <p>
+            Delivered a unified console with AI-assisted root cause analysis. The system detects anomalies, drafts incident
+            briefs, and recommends remediation scripts in minutes instead of hours.
+          </p>
+          <ul>
+            <li>Streaming ingestion via edge functions</li>
+            <li>LLM-powered incident responders</li>
+            <li>Zero downtime migrations, audited pipelines</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__tag">Enterprise Portal</span>
+            <span class="project-card__status">launched</span>
+          </div>
+          <h3>ATLAS ACCESS: secure AI concierge</h3>
+          <p>
+            Architected a self-service onboarding portal where AI copilots walk users through tailored flows, generate policy-safe
+            assets, and trigger infrastructure provisioning automatically.
+          </p>
+          <ul>
+            <li>Federated auth with fine-grained RBAC</li>
+            <li>Guided AI onboarding with guardrails</li>
+            <li>Infrastructure as code automation</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section ai-pipeline" id="ai">
+      <div class="section__header">
+        <span class="section__eyebrow">ai delivery framework</span>
+        <h2>Operationalizing autonomous workflows</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div>
+            <h3>Strategize</h3>
+            <p>Define outcomes, prototype with AI whiteboarding, and break down deliverables into executable agent tasks.</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div>
+            <h3>Co-create</h3>
+            <p>Leverage custom GPT pipelines to scaffold architecture, generate tests, and draft documentation in parallel.</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div>
+            <h3>Validate</h3>
+            <p>Automated suites run regression, security, and performance checks. Feedback loops feed future iterations.</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div>
+            <h3>Deploy</h3>
+            <p>Ship with monitored releases, adaptive alerts, and AI copilots actively maintaining reliability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section signal" id="signal">
+      <div class="signal__pulse"></div>
+      <div class="signal__content">
+        <h2>Signal over noise.</h2>
+        <p>
+          I craft tools that keep teams shipping—backed by telemetry, automation, and measurable outcomes. Let’s design
+          the next release together.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section__header">
+        <span class="section__eyebrow">work with me</span>
+        <h2>Let’s align on your next milestone</h2>
+      </div>
+      <form class="contact__form">
+        <div class="form__group">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Your name" required />
+        </div>
+        <div class="form__group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@company.com" required />
+        </div>
+        <div class="form__group">
+          <label for="message">Project Brief</label>
+          <textarea id="message" rows="4" placeholder="Share your problem, timeline, and goals." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Initiate Collaboration</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Agentic Developer. Crafted with AI-accelerated precision.</p>
+    <div class="footer__links">
+      <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="mailto:hello@agentic.dev">hello@agentic.dev</a>
+    </div>
+  </footer>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
+
